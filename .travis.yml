@@ -1,0 +1,14 @@
+matrix:
+  include:
+    - os: linux
+
+dist: trusty
+
+before_install:
+  - ci/travis-before-install.sh
+
+script:
+  - ./2600basic.sh source/sample.bas
+
+notifications:
+  email: false

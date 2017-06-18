@@ -12,6 +12,3 @@ unzip -o bB_Linux_binaries_version_1.0.zip
 echo "### 2. setting environment"
 export bB=`pwd`
 export PATH=$PATH:$bB
-
-echo "### 3. compiling"
-./2600basic.sh source/sample.bas
