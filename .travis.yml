@@ -8,7 +8,7 @@ before_install:
   - ci/travis-before-install.sh
 
 script:
-  - ./2600basic.sh source/sample.bas
+  - ci/travis-build.sh source/sample.bas
 
 notifications:
   email: false
