@@ -1,6 +1,6 @@
 # batariBasicTestProject
 
-This project is a small template for batari basic (bB) code based repositories. The idea is to offer a base project with continuous integration that compiles a small example program written in bB.
+This project is a small template for [batari basic](http://bataribasic.com/) (bB) code based repositories. The idea is to offer a base project with continuous integration that compiles a small example program written in bB.
 
 ### Branches
 
