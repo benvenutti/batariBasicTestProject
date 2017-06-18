@@ -8,7 +8,3 @@ wget http://bataribasic.com/bB_Linux_binaries_version_1.0.zip
 echo "# 1.1 unzipping"
 unzip -o batari_Basic_version_1.0.zip
 unzip -o bB_Linux_binaries_version_1.0.zip
-
-echo "### 2. setting environment"
-export bB=`pwd`
-export PATH=$PATH:$bB
