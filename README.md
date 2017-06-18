@@ -1,4 +1,4 @@
-# batariBasicTestProject
+# batariBasicTestProject [![Build Status](https://travis-ci.org/benvenutti/batariBasicTestProject.svg?branch=master)](https://travis-ci.org/benvenutti/batariBasicTestProject)
 
 This project is a small template for [batari basic](http://bataribasic.com/) (bB) code based repositories. The idea is to offer a base project with continuous integration that compiles a small example program written in bB.
 
