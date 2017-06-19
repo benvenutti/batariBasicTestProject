@@ -1,16 +1,17 @@
 matrix:
   include:
     - os: linux
+    - os: osx
 
 dist: trusty
 
 before_install:
   - ci/travis-before-install.sh
-  - export bB=`pwd`
+  - export bB=`pwd`/build
   - export PATH=$PATH:$bB
 
 script:
-  - ci/travis-build.sh sample.bas
+  - ci/travis-build.sh
 
 notifications:
   email: false
