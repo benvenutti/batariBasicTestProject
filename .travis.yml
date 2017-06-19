@@ -7,7 +7,7 @@ dist: trusty
 
 before_install:
   - ci/travis-before-install.sh
-  - export bB=`pwd`
+  - export bB=`pwd`/build
   - export PATH=$PATH:$bB
 
 script:
