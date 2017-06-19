@@ -17,7 +17,10 @@ unzip -o BB.1.1d.reveng40.zip
 echo "# 2.3 making bb"
 
 mv bB.1.1d.reveng40/* .
-make
+
+if [ "$TRAVIS_OS_NAME" == "osx" ]; then
+  make
+fi
 
 echo "### 3. copying source code to build folder"
 
