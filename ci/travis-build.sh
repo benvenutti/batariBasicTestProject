@@ -1,4 +1,9 @@
 #!/bin/bash
 
 cd build
-./2600basic.sh sample.bas
+
+if [ "$TRAVIS_OS_NAME" == "linux" ]; then 
+  ../ci/travis-build-linux.sh sample.bas 
+else 
+  ../ci/travis-build-osx.sh sample.bas 
+fi
