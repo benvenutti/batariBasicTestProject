@@ -18,5 +18,6 @@ if [ "$TRAVIS_OS_NAME" == "linux" ]; then
 else
   unzip -o BB.1.1d.reveng40.zip
   mv bB.1.1d.reveng40/* .
+  make
   ls
 fi
