@@ -1,6 +1,7 @@
 matrix:
   include:
     - os: linux
+    - os: osx
 
 dist: trusty
 
