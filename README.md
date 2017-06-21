@@ -1,4 +1,5 @@
-# batariBasicTestProject [![Build Status](https://travis-ci.org/benvenutti/batariBasicTestProject.svg?branch=master)](https://travis-ci.org/benvenutti/batariBasicTestProject) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+# batariBasicTestProject [![Build Status](https://travis-ci.org/benvenutti/batariBasicTestProject.svg?branch=master)](https://travis-ci.org/benvenutti/batariBasicTestProject) [![Build status](https://ci.appveyor.com/api/projects/status/d6lgvg6si7c2ccsd?svg=true)](https://ci.appveyor.com/project/benvenutti/bataribasictestproject)
+ [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 *Writing Atari 2600 games/programs using tools from the 21st Century!*
 
