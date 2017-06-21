@@ -2,12 +2,12 @@ platform:
   - Win32
   - x64
 
-init:
+install:
   - cmd: mkdir build
+  - cmd: copy sample.bas build
   - cmd: cd build
   - cmd: appveyor DownloadFile http://7800.8bitdev.org/images/1/18/BB.1.1d.reveng40.zip
-  - cmd: 7z e BB.1.1d.reveng40.zip
-  - cmd: dir
+  - cmd: 7z e BB.1.1d.reveng40.zip -y
 
 build_script:
-  - cmd: echo testing...
+  - cmd: 2600bas.bat sample.bas
