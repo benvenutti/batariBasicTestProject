@@ -1,4 +1,11 @@
 #!/bin/sh
+
+# This file is an (almost) exact copy from the build bash script from 
+# http://bataribasic.com/download.html. The only thing that 
+# was changed was the exit constant when the compilation and the 
+# assembly failed. This was done so the CI system is able to tell that 
+# something was wrong with the build.
+
 echo "Starting build of $1"
 preprocess<$1 | 2600basic -i $bB>bB.asm
 if [ "$?" -ne "0" ]
@@ -23,4 +30,3 @@ if [ "$?" -ne "0" ]
 fi
 echo "Build complete."
 exit 0
-
