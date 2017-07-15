@@ -28,4 +28,4 @@ fi
 
 echo "### 3. copying source code to build folder"
 
-cp ../sample.bas .
+cp ../src/sample.bas .
