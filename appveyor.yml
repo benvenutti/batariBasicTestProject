@@ -6,4 +6,4 @@ install:
   - cmd: ci/appveyor-install.bat
 
 build_script:
-  - cmd: 2600bas.bat sample.bas
+  - cmd: ci/appveyor-build.bat
