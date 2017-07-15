@@ -3,7 +3,7 @@ platform:
   - x64
 
 install:
-  - cmd: appveyor-install.bat
+  - cmd: ci/appveyor-install.bat
 
 build_script:
   - cmd: 2600bas.bat sample.bas
