@@ -24,9 +24,3 @@ The build system relies on two versions of the bB compiler: the original [bB.1.0
 | Windows Server 2012 R2 (x86)              | bB.1.1d.reveng |
 
 Have fun! :space_invader:
-
-### Branches
-
-**master**: main branch.
-
-**issue-"x"**: used to implement issue "x" during development. Should branch off master and merge back into master.
