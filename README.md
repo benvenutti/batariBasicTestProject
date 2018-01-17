@@ -16,7 +16,7 @@ To guarantee a proper collaborative work environment, **continuous integration a
 
 The build system relies on two versions of the bB compiler: the original [bB.1.0](http://bataribasic.com/download.html) and the [bB.1.1.reveng](http://7800.8bitdev.org/index.php/Batari_basic). Version 1.0 is for Linux x64 due to the fact that it is bundled with a working x86_64 [dasm](http://dasm-dillon.sourceforge.net/). The following table presents the operating systems and the bB compilers used in continuous integration at [Travis](https://travis-ci.org/benvenutti/batariBasicTestProject) and [AppVeyor](https://ci.appveyor.com/project/benvenutti/bataribasictestproject):
 
-| Operating System        | Operating System             |
+| Operating System        | bB Compiler             |
 |-------------------------|------------------------------|
 | Darwin Kernel Version 15.6.0 (OS X 10.11)              | bB.1.1d.reveng |
 | Ubuntu 14.04.3 LTS              | bB.1.0 |
